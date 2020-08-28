@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/smartHome/static/css/main.ad26df27.chunk.css",
-    "main.js": "/smartHome/static/js/main.19c03605.chunk.js",
-    "main.js.map": "/smartHome/static/js/main.19c03605.chunk.js.map",
-    "runtime-main.js": "/smartHome/static/js/runtime-main.13be4919.js",
-    "runtime-main.js.map": "/smartHome/static/js/runtime-main.13be4919.js.map",
-    "static/js/2.83510648.chunk.js": "/smartHome/static/js/2.83510648.chunk.js",
-    "static/js/2.83510648.chunk.js.map": "/smartHome/static/js/2.83510648.chunk.js.map",
+    "main.js": "/smartHome/static/js/main.070d003e.chunk.js",
+    "main.js.map": "/smartHome/static/js/main.070d003e.chunk.js.map",
+    "runtime-main.js": "/smartHome/static/js/runtime-main.0284ad3a.js",
+    "runtime-main.js.map": "/smartHome/static/js/runtime-main.0284ad3a.js.map",
+    "static/js/2.e6427de7.chunk.js": "/smartHome/static/js/2.e6427de7.chunk.js",
+    "static/js/2.e6427de7.chunk.js.map": "/smartHome/static/js/2.e6427de7.chunk.js.map",
     "index.html": "/smartHome/index.html",
-    "precache-manifest.77060982a1711013e401d523ec182f0c.js": "/smartHome/precache-manifest.77060982a1711013e401d523ec182f0c.js",
+    "precache-manifest.c5f9218e53f6b2120c3ccb7d86151703.js": "/smartHome/precache-manifest.c5f9218e53f6b2120c3ccb7d86151703.js",
     "service-worker.js": "/smartHome/service-worker.js",
     "static/css/main.ad26df27.chunk.css.map": "/smartHome/static/css/main.ad26df27.chunk.css.map",
-    "static/js/2.83510648.chunk.js.LICENSE.txt": "/smartHome/static/js/2.83510648.chunk.js.LICENSE.txt"
+    "static/js/2.e6427de7.chunk.js.LICENSE.txt": "/smartHome/static/js/2.e6427de7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.13be4919.js",
-    "static/js/2.83510648.chunk.js",
+    "static/js/runtime-main.0284ad3a.js",
+    "static/js/2.e6427de7.chunk.js",
     "static/css/main.ad26df27.chunk.css",
-    "static/js/main.19c03605.chunk.js"
+    "static/js/main.070d003e.chunk.js"
   ]
 }
