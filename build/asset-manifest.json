@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c0e8499.chunk.css",
-    "main.js": "/static/js/main.bbd86b21.chunk.js",
-    "main.js.map": "/static/js/main.bbd86b21.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cf8c75f0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cf8c75f0.js.map",
-    "static/js/2.91cce777.chunk.js": "/static/js/2.91cce777.chunk.js",
-    "static/js/2.91cce777.chunk.js.map": "/static/js/2.91cce777.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9051f71a5703134abbd8296e97a15c74.js": "/precache-manifest.9051f71a5703134abbd8296e97a15c74.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2c0e8499.chunk.css.map": "/static/css/main.2c0e8499.chunk.css.map",
-    "static/js/2.91cce777.chunk.js.LICENSE.txt": "/static/js/2.91cce777.chunk.js.LICENSE.txt"
+    "main.css": "/smartHome/static/css/main.2c0e8499.chunk.css",
+    "main.js": "/smartHome/static/js/main.4782b236.chunk.js",
+    "main.js.map": "/smartHome/static/js/main.4782b236.chunk.js.map",
+    "runtime-main.js": "/smartHome/static/js/runtime-main.0284ad3a.js",
+    "runtime-main.js.map": "/smartHome/static/js/runtime-main.0284ad3a.js.map",
+    "static/js/2.91cce777.chunk.js": "/smartHome/static/js/2.91cce777.chunk.js",
+    "static/js/2.91cce777.chunk.js.map": "/smartHome/static/js/2.91cce777.chunk.js.map",
+    "index.html": "/smartHome/index.html",
+    "precache-manifest.6a2c52faea692c694ab5763786f93539.js": "/smartHome/precache-manifest.6a2c52faea692c694ab5763786f93539.js",
+    "service-worker.js": "/smartHome/service-worker.js",
+    "static/css/main.2c0e8499.chunk.css.map": "/smartHome/static/css/main.2c0e8499.chunk.css.map",
+    "static/js/2.91cce777.chunk.js.LICENSE.txt": "/smartHome/static/js/2.91cce777.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cf8c75f0.js",
+    "static/js/runtime-main.0284ad3a.js",
     "static/js/2.91cce777.chunk.js",
     "static/css/main.2c0e8499.chunk.css",
-    "static/js/main.bbd86b21.chunk.js"
+    "static/js/main.4782b236.chunk.js"
   ]
 }
