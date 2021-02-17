@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {  Route } from "react-router-dom";
 import ShowRoom from "../components/ShowRoom";
 export default class home extends Component {
   constructor(props) {
