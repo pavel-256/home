@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./App.css";
-import ShowRoom from "./components/ShowRoom";
+
 import Addroom from "./components/addRoom";
 import Room from "./components/Room";
+import Home from "./components/home";
 
 export default class App extends Component {
   state = {
@@ -64,40 +65,13 @@ export default class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            <Route exact path="/">
-              <div className="home  container ">
-                <h1 className="display-3 text-info">Smart House</h1>
-                <div className="d-flex flex-row flex-wrap">
-                  {this.state.list.map((val, index) => {
-                    return (
-                      <Route
-                        exact
-                        path="/"
-                        component={() => (
-                          <ShowRoom
-                            type={val.type}
-                            name={val.name}
-                            status={val.status}
-                            devices={val.devices}
-                            index={index}
-                          />
-                        )}
-                      />
-                    );
-                  })}
-                </div>
-                <div className="row">
-                  <div className="col">
-                    <Link to="/addroom">
-                      <button className="Addroom btn btn-info btn-lg">
-                        Add Room <br />
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </Route>
+            <Route
+              exact
+              path="/"
+              component={() => {
+                return <Home room={this.state.list} />;
+              }}
+            />
             <Route
               exact
               path="/addroom"
@@ -105,27 +79,25 @@ export default class App extends Component {
                 return <Addroom addRoom={this.addRoom} />;
               }}
             />
-            <div>
-              {this.state.list.map((val, index) => {
-                return (
-                  <Route
-                    exact
-                    path={`/room/${val.name}`}
-                    component={() => (
-                      <Room
-                        updateStatus={this.updateStatus}
-                        deleteProduct={this.deleteProduct}
-                        sendData={this.addDevice}
-                        type={val.type}
-                        name={val.name}
-                        devices={val.devices}
-                        index={index}
-                      />
-                    )}
-                  />
-                );
-              })}
-            </div>
+            {this.state.list.map((val, index) => {
+              return (
+                <Route
+                  exact
+                  path={`/room/${val.name}`}
+                  component={() => (
+                    <Room
+                      updateStatus={this.updateStatus}
+                      deleteProduct={this.deleteProduct}
+                      sendData={this.addDevice}
+                      type={val.type}
+                      name={val.name}
+                      devices={val.devices}
+                      index={index}
+                    />
+                  )}
+                />
+              );
+            })}
           </Switch>
         </Router>
       </div>
